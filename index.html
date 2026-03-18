@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Balterxar | Streamer</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    background:#0e0e0e;
+    color:white;
+}
+
+nav{
+    position:absolute;
+    top:0;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    padding:20px 40px;
+    z-index:10;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+.hero{
+    height:100vh;
+    background:url("images/hero.jpg") center/cover no-repeat;
+    display:flex;
+    align-items:center;
+    padding-left:80px;
+}
+
+.hero-text h1{
+    font-family:'Anton', sans-serif;
+    font-size:80px;
+    margin:0;
+}
+
+.hero-text p{
+    font-size:20px;
+}
+
+.button{
+    margin-top:20px;
+    display:inline-block;
+    padding:12px 24px;
+    background:#9146FF;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+}
+
+section{
+    padding:100px 10%;
+}
+
+.section-title{
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:40px;
+}
+
+.card{
+    background:#1c1c1c;
+    padding:30px;
+    border-radius:10px;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    background:#111;
+}
+</style>
+
+</head>
+
+<body>
+
+<nav>
+    <div><strong>BALTERXAR</strong></div>
+
+    <div>
+        <a href="#about">About</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#clips">Clips</a>
+        <a href="#community">Community</a>
+    </div>
+</nav>
+
+<section class="hero">
+    <div class="hero-text">
+        <h1>BALTERXAR</h1>
+        <p>Professional Stepdad. Building Community.</p>
+
+        <a class="button" href="https://twitch.tv/balterxar" target="_blank">
+            Watch Live
+        </a>
+    </div>
+</section>
+
+<section id="about">
+    <h2 class="section-title">About</h2>
+
+    <p>
+        Balterxar is a live streamer focused on gaming, community interaction,
+        and high-energy entertainment. Join the stream, hang out with the
+        community, and be part of the adventure.
+    </p>
+</section>
+
+<section id="schedule">
+
+<h2 class="section-title">Stream Schedule</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Monday</h3>
+<p>7 PM - 10 PM</p>
+</div>
+
+<div class="card">
+<h3>Wednesday</h3>
+<p>7 PM - 10 PM</p>
+</div>
+
+<div class="card">
+<h3>Saturday</h3>
+<p>6 PM - Late</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="clips">
+
+<h2 class="section-title">Latest Clips</h2>
+
+<div class="grid">
+
+<div class="card">
+<iframe
+src="https://player.twitch.tv/?video=v123456&parent=balterxar.github.io"
+height="200"
+width="100%"
+allowfullscreen>
+</iframe>
+</div>
+
+<div class="card">
+<iframe
+src="https://www.youtube.com/embed/VIDEOID"
+height="200"
+width="100%"
+allowfullscreen>
+</iframe>
+</div>
+
+</div>
+
+</section>
+
+<section id="community">
+
+<h2 class="section-title">Join the Community</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Twitch</h3>
+<p>Watch the stream live.</p>
+<a class="button" href="https://twitch.tv/balterxar">Visit</a>
+</div>
+
+<div class="card">
+<h3>Discord</h3>
+<p>Chat with the community.</p>
+<a class="button" href="#">Join</a>
+</div>
+
+<div class="card">
+<h3>YouTube</h3>
+<p>Stream highlights and videos.</p>
+<a class="button" href="#">Subscribe</a>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Balterxar</p>
+
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
